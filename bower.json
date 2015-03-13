@@ -1,12 +1,11 @@
 {
-  "name": "bootswatch",
+  "name": "bootswatch-pineapple",
   "description": "Bootswatch is a collection of themes for Bootstrap.",
   "version": "3.3.2",
-  "author": "Thomas Park",
-  "homepage": "http://bootswatch.com",
+  "author": "Originally Thomas Park",
   "repository": {
     "type": "git",
-    "url": "git://github.com/thomaspark/bootswatch.git"
+    "url": "git://github.com/andosw/bootswatch.git"
   },
   "license": "MIT",
   "ignore": [
