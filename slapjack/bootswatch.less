@@ -29,6 +29,45 @@
 }
 
 // Buttons ====================================================================
+.btn {
+  text-transform: uppercase;
+  border-right: none;
+  border-bottom: none;
+  .box-shadow(1px 1px 1px rgba(0,0,0,.3));
+  .transition(all 0.2s);
+
+  &-link {
+    .box-shadow(none);
+
+    &:hover,
+    &:focus {
+      color: @brand-primary;
+      text-decoration: none;
+    }
+  }
+
+  &-default.disabled {
+    border: 1px solid @btn-default-border;
+  }
+}
+
+.btn-group {
+  .btn + .btn,
+  .btn + .btn-group,
+  .btn-group + .btn,
+  .btn-group + .btn-group {
+    margin-left: 0;
+  }
+
+  &-vertical {
+    > .btn + .btn,
+    > .btn + .btn-group,
+    > .btn-group + .btn,
+    > .btn-group + .btn-group {
+      margin-top: 0;
+    }
+  }
+}
 
 // Typography =================================================================
 
